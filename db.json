@@ -194,6 +194,137 @@
         "Fascinating portrayal of the rise of Facebook and its founders.",
         "Sharp writing and compelling performances by the cast."
       ]
+    },
+    {
+      "id": 16,
+      "title": "Iron Man",
+      "director": "Jon Favreau",
+      "releaseYear": 2000,
+      "genre": "Action",
+      "poster": "iron_man_poster.jpg",
+      "rating": 4.7,
+      "comments": [
+        "Robert Downey Jr.'s charismatic performance as Tony Stark.",
+        "A thrilling start to the Marvel Cinematic Universe."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+      "releaseYear": 2018,
+      "genre": "Animation",
+      "poster": "spiderverse_poster.jpg",
+      "rating": 4.8,
+      "comments": [
+        "Groundbreaking animation style and storytelling.",
+        "A fresh take on the Spider-Man universe."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "The Dark Knight Rises",
+      "director": "Christopher Nolan",
+      "releaseYear": 2012,
+      "genre": "Action",
+      "poster": "dark_knight_rises_poster.jpg",
+      "rating": 4.6,
+      "comments": [
+        "A satisfying conclusion to Nolan's Batman trilogy.",
+        "Tom Hardy's portrayal of Bane was menacing."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Wonder Woman",
+      "director": "Patty Jenkins",
+      "releaseYear": 2017,
+      "genre": "Action",
+      "poster": "wonder_woman_poster.jpg",
+      "rating": 4.5,
+      "comments": [
+        "Gal Gadot's empowering performance as Wonder Woman.",
+        "Visually stunning action sequences."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "director": "Chris Columbus",
+      "releaseYear": 2001,
+      "genre": "Fantasy",
+      "poster": "harry_potter_philosophers_stone_poster.jpg",
+      "rating": 4.8,
+      "comments": [
+        "Magical world-building and lovable characters.",
+        "A perfect adaptation of J.K. Rowling's book."
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "director": "George Lucas",
+      "releaseYear": 1977,
+      "genre": "Sci-Fi",
+      "poster": "star_wars_new_hope_poster.jpg",
+      "rating": 4.9,
+      "comments": [
+        "The beginning of an iconic space opera franchise.",
+        "Timeless characters and epic space battles."
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Mad Max: Fury Road",
+      "director": "George Miller",
+      "releaseYear": 2015,
+      "genre": "Action",
+      "poster": "mad_max_fury_road_poster.jpg",
+      "rating": 4.8,
+      "comments": [
+        "Intense action and visually stunning cinematography.",
+        "Charlize Theron's Furiosa was a standout character."
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Guardians of the Galaxy",
+      "director": "James Gunn",
+      "releaseYear": 2014,
+      "genre": "Action",
+      "poster": "guardians_of_the_galaxy_poster.jpg",
+      "rating": 4.6,
+      "comments": [
+        "A perfect blend of humor, heart, and action.",
+        "The soundtrack was a nostalgic delight."
+      ]
+    },
+    {
+      "id": 24,
+      "title": "The Hunger Games",
+      "director": "Gary Ross",
+      "releaseYear": 2012,
+      "genre": "Adventure",
+      "poster": "hunger_games_poster.jpg",
+      "rating": 4.5,
+      "comments": [
+        "Jennifer Lawrence's strong and compelling performance.",
+        "A dystopian world with intense survival challenges."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "The Lord of the Rings: The Two Towers",
+      "director": "Peter Jackson",
+      "releaseYear": 2002,
+      "genre": "Fantasy",
+      "poster": "lotr_two_towers_poster.jpg",
+      "rating": 4.8,
+      "comments": [
+        "Epic battles and character development continue in Middle-earth.",
+        "Gollum's CGI was groundbreaking for its time."
+      ]
     }
+
   ]
 }

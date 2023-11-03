@@ -3,8 +3,8 @@ import React from "react";
 
 function MovieCard({ releaseYear, posterUrl, title, genre }) {
   return (
-   
-    <div className="ui card">
+   <div className="space-movie-card">
+    <div className="ui card custom-card">
     <div className="content">
     <div className="center aligned">
       <div className="ui small image">
@@ -14,6 +14,7 @@ function MovieCard({ releaseYear, posterUrl, title, genre }) {
         <div>{title}</div>
         <div>{releaseYear}</div>
         <div>{genre}</div>
+        </div>
         </div>
         </div>
         </div>

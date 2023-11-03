@@ -1,12 +1,17 @@
-.ui.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color:black;
-  
- 
-}
 
+
+.ui.card.custom-card {
+  width:180px;
+  height: 360px;
+  margin:30px;
+  
+}
+.space-cards{
+  align-items: center;
+}
+.space-movie-card{
+  margin-bottom:30px;
+}
 
 .custom-search-bar {
   width: 98%; 
@@ -18,7 +23,7 @@
 
 }
 .space{
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .color-header{

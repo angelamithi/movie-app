@@ -9,9 +9,8 @@ function MoviesContainer({ dataMovies }) {
     <div >
         
         <div className="ui four column grid">
-            <div className="row">
-                <div className="ui cards">
-        {dataMovies.map((movie) => (
+            <div className="row space-cards">
+            {dataMovies.map((movie) => (
           <MovieCard
             key={movie.id}
             releaseYear={movie.releaseYear}
@@ -21,7 +20,7 @@ function MoviesContainer({ dataMovies }) {
           />
         ))}
      
-        </div>
+    
       </div>
       </div>
     </div>

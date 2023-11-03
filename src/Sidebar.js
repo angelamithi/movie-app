@@ -3,6 +3,9 @@ function Sidebar(){
     return(
     <div>
          <div class="ui vertical menu">
+            <aside>
+                
+            </aside>
             
            </div>
      </div>

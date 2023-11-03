@@ -1,0 +1,32 @@
+.ui.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:black;
+  
+ 
+}
+
+
+.custom-search-bar {
+  width: 98%; 
+  margin-left:10px; 
+  height: 40px; 
+  color:black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+.space{
+  padding-top: 20px;
+}
+
+.color-header{
+  background-color: black;
+
+}
+.custom-background{
+  background-color: #343739;
+
+}
+

@@ -7,6 +7,7 @@ function MoviesContainer({ dataMovies }) {
 
   return (
     <div >
+        <h3 className="movie-header">Movie Collection</h3>
         
         <div className="ui four column grid">
             <div className="row space-cards">

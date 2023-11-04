@@ -9,29 +9,107 @@
 .space-cards{
   align-items: center;
 }
+
 .space-movie-card{
   margin-bottom:30px;
 }
 
 .custom-search-bar {
-  width: 98%; 
-  margin-left:10px; 
-  height: 40px; 
-  color:black;
-  margin-bottom: 10px;
+  width: 93%;
+  margin-left:48px;
+  height: 40px;
+  color: black;
+  margin-top: 10px;
   border-radius: 10px;
-
+  border-width: 10px;
+  background-color: white;
+ 
+ 
 }
+.ui.fluid.icon.input input::placeholder {
+  color: rgba(0, 0, 0, 0.8); 
+  opacity: 1; 
+}
+
 .space{
   padding-top: 25px;
 }
 
-.color-header{
-  background-color: black;
+.color-header {
+  background-color:#343739;
+  padding: 10px;
+  width:96%;
+  margin-left:20px;
+}
+.twelve.wide.column.custom-background{
+  margin-top:60px;
+  margin-left:220px;
+  
+  width: 75%;
+ 
 
 }
-.custom-background{
+.movie-header{
+ margin-bottom:15px ;
+ text-align: center;
+
+
+}
+.container{
   background-color: #343739;
+}
+.sidebar{
+ float:left;
+ position: fixed;
+ align-content: center;
+ align-items: center;
+ top: 177px;
+  bottom: 0;
+  left: 0;
+  margin-left: 10px;
+   width: 190px;
+  border-radius: 7px;
+ background-color: white;
+
+ 
+}
+.button-container{
+  margin-top: 20px;
+}
+
+.header-four{
+ 
+  margin-left: 8px;
 
 }
 
+.ui.basic.button.new-button{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: black;
+  
+  
+}
+.ui.basic.button.new-button.directors{
+  margin-left: 10px;
+}
+.button-components-container{
+  margin-top: 20px;
+  border-width: 10px;
+
+}
+.ui.grid.four.wide.column {
+  width: 25%;
+  
+}
+.three.wide.column {
+  margin-top:60px;
+  margin-left:5px;
+
+  
+  
+}
+.filter{
+  margin-top: 20px;
+  margin-left: 10px;
+}

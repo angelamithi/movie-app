@@ -10,7 +10,10 @@
 .space-cards{
   align-items: center;
 }
+.search-container{
+  margin-top:50px;
 
+}
 .space-movie-card{
   margin-bottom:30px;
 }
@@ -62,12 +65,13 @@
   background-color: #343739;
   
 }
+
 .sidebar{
  float:left;
- position: fixed;
+ height: 100%;
  align-content: center;
  align-items: center;
- top: 178px;
+ top: 198px;
   bottom: 0;
   left: 0;
   margin-left: 10px;

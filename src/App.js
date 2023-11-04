@@ -9,6 +9,7 @@ import './App.css';
 function App() {
   const [dataMovies, setDataMovies] = useState([]);
   const [showAddMovieForm, setShowAddMovieForm] = useState(false);
+  const [search,setSearch]=useState("");
 
   useEffect(() => {
     fetch('http://localhost:3000/movies')
@@ -33,7 +34,7 @@ function App() {
         setShowAddMovieForm(false);
       });
   }
-
+  let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()))
   return (
     <div className="ui grid">
       <div className="ui grid">
@@ -51,7 +52,7 @@ function App() {
       )}
       <div className='custom-search-bar'>
         
-        <Search/>
+        <Search setSearch={setSearch} />
 
       </div>
       
@@ -66,7 +67,9 @@ function App() {
       <div className="twelve wide column custom-background">
        
         <div className="space-cards">
-          <MoviesPage dataMovies={dataMovies} />
+         
+          <MoviesPage dataMovies={search.length > 0 ? searchResults: dataMovies} />
+         
         </div>
         </div>
        </div>

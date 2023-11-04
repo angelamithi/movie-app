@@ -6,7 +6,10 @@
   margin:30px;
   
 }
-
+ .ui.grid{
+  color: #343739;
+ }
+ 
 .space-cards{
   align-items: center;
 }

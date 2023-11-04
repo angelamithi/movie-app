@@ -324,7 +324,15 @@
         "Epic battles and character development continue in Middle-earth.",
         "Gollum's CGI was groundbreaking for its time."
       ]
+    },
+    {
+      "title": "Batman",
+      "director": "Matt Reeves",
+      "releaseYear": "2023-11-03",
+      "poster": "C:\\fakepath\\dark_knight_poster.jpg",
+      "ratings": "4.8",
+      "comments": "Epic Movie",
+      "id": 26
     }
-
   ]
 }

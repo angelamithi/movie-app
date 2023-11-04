@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import MoviesPage from './MoviesPage';
 import Sidebar from './Sidebar';
 import Search from './Search';
+import Form from './Form';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
         <Search/>
 
       </div>
+      
 
       <div className='container'>
        <div className='three wide column'>

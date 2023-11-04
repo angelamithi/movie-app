@@ -6,7 +6,7 @@ function MoviesContainer({ dataMovies }) {
   const imageUrl = process.env.PUBLIC_URL + '/images/';
 
   return (
-    <div >
+    <div  className="movie-container">
         <h3 className="movie-header">Movie Collection</h3>
         
         <div className="ui four column grid">

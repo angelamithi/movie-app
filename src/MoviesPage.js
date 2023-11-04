@@ -8,8 +8,7 @@ function MoviesPage({ dataMovies }) {
   return (
     <div>
   
-     
-     
+       
           
           <div className="ui segment custom-background">
             <MoviesContainer dataMovies={dataMovies} />

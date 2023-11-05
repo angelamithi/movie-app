@@ -1,7 +1,7 @@
 import React from "react";
 import MovieCard from "./MovieCard";
 
-function MoviesContainer({ dataMovies, handleMovieClick }) {
+function MoviesContainer({dataMovies, handleMovieClick }) {
   const imageUrl = process.env.PUBLIC_URL + '/images/';
 
   return (
@@ -10,7 +10,8 @@ function MoviesContainer({ dataMovies, handleMovieClick }) {
 
       <div className="ui four column grid">
         <div className="row space-cards">
-          {dataMovies.map((movie) => (
+          {dataMovies.map((movie) => {
+            return (
             <MovieCard
               key={movie.id}
               releaseYear={movie.releaseYear}
@@ -18,9 +19,9 @@ function MoviesContainer({ dataMovies, handleMovieClick }) {
               title={movie.title}
               genre={movie.genre}
               id={movie.id}
-              onClick={() => handleMovieClick(movie.id)}
+              onClick={() => handleMovieClick(movie.id)} 
             />
-          ))}
+          )})}
         </div>
       </div>
     </div>

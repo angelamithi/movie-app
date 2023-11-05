@@ -1,11 +1,11 @@
 import React from "react";
 import MoviesContainer from "./MoviesContainer";
 
-function MoviesPage({ movie,handleMovieClick }) {
+function MoviesPage({ dataMovies,handleMovieClick }) {
   return (
     <div>
       <div className="ui segment custom-background">
-        <MoviesContainer dataMovies={movie ? [movie] : []} />
+        <MoviesContainer dataMovies={dataMovies} handleMovieClick={handleMovieClick}/>
       </div>
     </div>
   );

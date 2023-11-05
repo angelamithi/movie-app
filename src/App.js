@@ -40,7 +40,9 @@ function App() {
       });
   }
   let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()));
+
   function handleMovieClick(id) {
+    console.log('Clicked movie ID:', id);
     setSelectedMovieId(id);
     navigate(`/movie/${id}`);
   }
@@ -70,7 +72,7 @@ function App() {
       <div className='container'>
        <div className='three wide column'>
          <div className='sidebar'>
-         <CategoryFilter dataMovies={search.length > 0 ? searchResults : dataMovies} />
+         <CategoryFilter dataMovies={search.length > 0 ? searchResults : dataMovies} handleMovieClick={handleMovieClick} />
 
          </div>
         </div>
@@ -81,21 +83,22 @@ function App() {
 
      
         <Routes>
-        <Route
-          path="/"
-          element={
-            selectedMovieId ? (
-              <SingleMoviePage dataMovies={dataMovies} movieId={selectedMovieId} />
-            ) : (
-              <MoviesPage
-                dataMovies={search.length > 0 ? searchResults : dataMovies}
-                handleMovieClick={handleMovieClick}
-              />
-            )
-          }
+  <Route
+    path="/"
+    element={
+      selectedMovieId ? (
+        <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} /> 
+      ) : (
+        <MoviesPage
+          dataMovies={search.length > 0 ? searchResults : dataMovies}
+          handleMovieClick={handleMovieClick}
         />
-        <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} />} />
-      </Routes>
+      )
+    }
+  />
+  <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId}/>} />
+</Routes>
+
 
   
          

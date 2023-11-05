@@ -19,6 +19,7 @@
 }
 .space-movie-card{
   margin-bottom:30px;
+  margin-top: 20px;
 }
 
 .custom-search-bar {
@@ -26,12 +27,15 @@
   margin-left:48px;
   height: 40px;
   color: black;
-  margin-top: 10px;
   border-radius: 10px;
   border-width: 10px;
   background-color: white;
  
  
+}
+.main-table{
+  width:80%;
+  margin-top:60px;
 }
 .ui.fluid.icon.input input::placeholder {
   color: rgba(0, 0, 0, 0.8); 
@@ -40,10 +44,10 @@
 
 .space{
   padding-top: 25px;
-  color:white;
+  color:black;
 }
 #titleCard{
-  color:white;
+  color:black
 }
 
 .color-header {

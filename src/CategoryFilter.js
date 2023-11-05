@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import MoviesPage from "./MoviesPage";
+import MovieCard from "./MovieCard";
 
-function CategoryFilter({dataMovies}) {
+function CategoryFilter({dataMovies,handleMovieClick}) {
   const [genre, setGenre] = useState("All");
 
   function handleChange(e) {
@@ -9,7 +10,7 @@ function CategoryFilter({dataMovies}) {
   }
 
   const filteredGenre = genre === "All" ? dataMovies : dataMovies.filter((movie) => movie.genre === genre);
-
+  const imageUrl = process.env.PUBLIC_URL + '/images/';
   return (
     <div className="filterByCategory">
       <div className="filter">
@@ -26,9 +27,18 @@ function CategoryFilter({dataMovies}) {
         </select>
       </div>
       <div className="movies-list">
-        {filteredGenre.map((movie) => (
-          <MoviesPage key={movie.id} movie={movie} />
-        ))}
+        {filteredGenre.map((movie) => {
+            return (
+            <MovieCard
+              key={movie.id}
+              releaseYear={movie.releaseYear}
+              posterUrl={imageUrl + movie.poster}
+              title={movie.title}
+              genre={movie.genre}
+              id={movie.id}
+              onClick={() => handleMovieClick(movie.id)} 
+            />
+          )})}
       </div>
     </div>
   );

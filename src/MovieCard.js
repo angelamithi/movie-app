@@ -1,11 +1,13 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 
-function MovieCard({id, releaseYear, posterUrl, title, genre }) {
+function MovieCard({id, releaseYear, posterUrl, title, genre,handleMovieClick }) {
   return (
    <div className="space-movie-card">
+    
     <Link to={`/movie/${id}`}>
+    
     <div className="ui card custom-card">
     <div className="content">
     <div className="center aligned">

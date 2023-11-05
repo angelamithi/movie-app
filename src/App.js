@@ -14,6 +14,7 @@ function App() {
   const [showAddMovieForm, setShowAddMovieForm] = useState(false);
   const [search,setSearch]=useState("");
   const [selectedMovieId, setSelectedMovieId] = useState(null);
+  const [selectedGenre, setSelectedGenre] = useState('All');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -40,11 +41,15 @@ function App() {
       });
   }
   let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()));
+  const filteredMovies = selectedGenre === 'All' ? dataMovies: searchResults.filter((movie) => movie.genre === selectedGenre);
 
   function handleMovieClick(id) {
     console.log('Clicked movie ID:', id);
     setSelectedMovieId(id);
     navigate(`/movie/${id}`);
+  }
+  function handleGenreChange(genre) {
+    setSelectedGenre(genre);
   }
   
   return (
@@ -72,7 +77,7 @@ function App() {
       <div className='container'>
        <div className='three wide column'>
          <div className='sidebar'>
-         <CategoryFilter dataMovies={search.length > 0 ? searchResults : dataMovies} handleMovieClick={handleMovieClick} />
+       
 
          </div>
         </div>
@@ -83,22 +88,23 @@ function App() {
 
      
         <Routes>
-  <Route
-    path="/"
-    element={
-      selectedMovieId ? (
-        <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} /> 
-      ) : (
-        <MoviesPage
-          dataMovies={search.length > 0 ? searchResults : dataMovies}
-          handleMovieClick={handleMovieClick}
-        />
-      )
-    }
-  />
-  <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId}/>} />
-</Routes>
-
+              <Route
+                path="/"
+                element={
+                  selectedMovieId ? (
+                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} />
+                  ) : (
+                    <MoviesPage
+                      dataMovies={filteredMovies}
+                      selectedGenre={selectedGenre}
+                      onGenreChange={handleGenreChange}
+                      handleMovieClick={handleMovieClick}
+                    />
+                  )
+                }
+              />
+              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} />} />
+            </Routes>
 
   
          

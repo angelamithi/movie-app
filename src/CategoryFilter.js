@@ -1,20 +1,17 @@
-import React, { useState } from "react";
-import MoviesPage from "./MoviesPage";
-import MovieCard from "./MovieCard";
+import React from "react";
 
-function CategoryFilter({dataMovies,handleMovieClick}) {
-  const [genre, setGenre] = useState("All");
-
+function CategoryFilter({ selectedGenre,onGenreChange}) {
   function handleChange(e) {
-    setGenre(e.target.value);
+  onGenreChange(e.target.value);
   }
 
-  const filteredGenre = genre === "All" ? dataMovies : dataMovies.filter((movie) => movie.genre === genre);
+  
   const imageUrl = process.env.PUBLIC_URL + '/images/';
+
   return (
     <div className="filterByCategory">
       <div className="filter">
-        <select name="filter" value={genre} onChange={handleChange}>
+        <select name="filter" value={selectedGenre} onChange={handleChange}>
           <option value="All">Filter By Genre</option>
           <option value="Romance">Romance</option>
           <option value="Fantasy">Fantasy</option>
@@ -26,21 +23,9 @@ function CategoryFilter({dataMovies,handleMovieClick}) {
           <option value="Crime">Crime</option>
         </select>
       </div>
-      <div className="movies-list">
-        {filteredGenre.map((movie) => {
-            return (
-            <MovieCard
-              key={movie.id}
-              releaseYear={movie.releaseYear}
-              posterUrl={imageUrl + movie.poster}
-              title={movie.title}
-              genre={movie.genre}
-              id={movie.id}
-              onClick={() => handleMovieClick(movie.id)} 
-            />
-          )})}
-      </div>
+      
     </div>
   );
 }
+
 export default CategoryFilter;

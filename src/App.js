@@ -61,13 +61,18 @@ function App() {
             <h1 className="ui header">Movie App</h1>
        </div>
       </div>
-       </div>
       {showAddMovieForm ? (
         <AddMovie onFormSubmit={handleAddMovie} onCancel={() => setShowAddMovieForm(false)} />
       ) : (
-        <button onClick={() => setShowAddMovieForm(true)}>Add a movie</button>
+        <button className="addButton" onClick={() => setShowAddMovieForm(true)}>Add a movie</button>
       )}
-      <div className='custom-search-bar'>
+       </div>
+
+       
+     
+     
+
+    <div className='custom-search-bar'>
         
         <Search setSearch={setSearch} />
 
@@ -75,13 +80,8 @@ function App() {
       
 
       <div className='container'>
-       <div className='three wide column'>
-         <div className='sidebar'>
-       
+      
 
-         </div>
-        </div>
-    
       <div className="twelve wide column custom-background">
        
         <div className="space-cards">

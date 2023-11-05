@@ -46,7 +46,7 @@ function AddMovie({ onFormSubmit, onCancel }) {
 
         <div>
           <button type="submit">Add Movie</button>
-          <button type="button" onClick={onCancel}>
+          <button  className="cancelButton" type="button" onClick={onCancel}>
             Cancel
           </button>
         </div>

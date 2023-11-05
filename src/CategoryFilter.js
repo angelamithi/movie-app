@@ -9,8 +9,8 @@ function CategoryFilter({ selectedGenre,onGenreChange}) {
   const imageUrl = process.env.PUBLIC_URL + '/images/';
 
   return (
-    <div className="filterByCategory">
-      <div className="filter">
+    <div className="filter">
+     
         <select name="filter" value={selectedGenre} onChange={handleChange}>
           <option value="All">Filter By Genre</option>
           <option value="Romance">Romance</option>
@@ -22,7 +22,7 @@ function CategoryFilter({ selectedGenre,onGenreChange}) {
           <option value="Animation">Animation</option>
           <option value="Crime">Crime</option>
         </select>
-      </div>
+     
       
     </div>
   );

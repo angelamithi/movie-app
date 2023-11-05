@@ -1,9 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 
-function MovieCard({ releaseYear, posterUrl, title, genre }) {
+function MovieCard({id, releaseYear, posterUrl, title, genre }) {
   return (
    <div className="space-movie-card">
+    <Link to={`/movie/${id}`}>
     <div className="ui card custom-card">
     <div className="content">
     <div className="center aligned">
@@ -11,14 +13,14 @@ function MovieCard({ releaseYear, posterUrl, title, genre }) {
        <img className="ui centered image" src={posterUrl} alt={title} />
       </div>
       <div className="space">
-        <div>{title}</div>
+        <div id="titleCard">{title}</div>
         <div>{releaseYear}</div>
         <div>{genre}</div>
         </div>
         </div>
         </div>
         </div>
-   
+   </Link>
     </div>
   );
 }

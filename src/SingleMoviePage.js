@@ -1,9 +1,8 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 function SingleMoviePage({ dataMovies }) {
   const { id } = useParams();
-  const selectedMovie = dataMovies.find((movie) => movie.id === parseInt(id, 10));
+  const selectedMovie = dataMovies.find((movie) => movie.id === parseInt(id));
 
   if (!selectedMovie) {
     return <div>Movie not found!</div>;
@@ -18,6 +17,9 @@ function SingleMoviePage({ dataMovies }) {
       <img src={imageUrl + poster} alt={title} />
       <p>Release Year: {releaseYear}</p>
       <p>Genre: {genre}</p>
+
+  
+      <Link to="/">Back to Homepage</Link>
     </div>
   );
 }

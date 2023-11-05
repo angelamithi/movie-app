@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import {Routes, Route,useNavigate } from 'react-router-dom';
 import MoviesPage from './MoviesPage';
 import Sidebar from './Sidebar';
 import Search from './Search';
 import AddMovie from './AddMovie';
 import CategoryFilter from './CategoryFilter';
+import SingleMoviePage from './SingleMoviePage';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 
@@ -11,6 +13,8 @@ function App() {
   const [dataMovies, setDataMovies] = useState([]);
   const [showAddMovieForm, setShowAddMovieForm] = useState(false);
   const [search,setSearch]=useState("");
+  const [selectedMovieId, setSelectedMovieId] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch('http://localhost:3000/movies')
@@ -35,7 +39,12 @@ function App() {
         setShowAddMovieForm(false);
       });
   }
-  let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()))
+  let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()));
+  function handleMovieClick(id) {
+    setSelectedMovieId(id);
+    navigate(`/movie/${id}`);
+  }
+  
   return (
     <div className="ui grid">
       <div className="ui grid">
@@ -69,8 +78,26 @@ function App() {
       <div className="twelve wide column custom-background">
        
         <div className="space-cards">
-         
-          <MoviesPage dataMovies={search.length > 0 ? searchResults: dataMovies} />
+
+     
+        <Routes>
+        <Route
+          path="/"
+          element={
+            selectedMovieId ? (
+              <SingleMoviePage dataMovies={dataMovies} movieId={selectedMovieId} />
+            ) : (
+              <MoviesPage
+                dataMovies={search.length > 0 ? searchResults : dataMovies}
+                handleMovieClick={handleMovieClick}
+              />
+            )
+          }
+        />
+        <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} />} />
+      </Routes>
+
+  
          
         </div>
         </div>

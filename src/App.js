@@ -3,6 +3,7 @@ import MoviesPage from './MoviesPage';
 import Sidebar from './Sidebar';
 import Search from './Search';
 import AddMovie from './AddMovie';
+import CategoryFilter from './CategoryFilter';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 
@@ -60,7 +61,8 @@ function App() {
       <div className='container'>
        <div className='three wide column'>
          <div className='sidebar'>
-          <Sidebar/>
+         <CategoryFilter dataMovies={search.length > 0 ? searchResults : dataMovies} />
+
          </div>
         </div>
     

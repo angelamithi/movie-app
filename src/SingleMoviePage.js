@@ -14,7 +14,7 @@ function SingleMoviePage({ dataMovies }) {
   return (
     <div className="single-movie-container">
       <h1>{title}</h1>
-      <img src={imageUrl + poster} alt={title} />
+      <img id="single-image"src={imageUrl + poster} alt={title} />
       <p>Release Year: {releaseYear}</p>
       <p>Genre: {genre}</p>
 

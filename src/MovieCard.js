@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 
-function MovieCard({id, releaseYear, posterUrl, title, genre,handleMovieClick }) {
+function MovieCard({id, releaseYear, posterUrl, title, genre}) {
   return (
    <div className="space-movie-card">
     

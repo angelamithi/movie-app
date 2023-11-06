@@ -300,19 +300,6 @@
       ]
     },
     {
-      "id": 24,
-      "title": "The Hunger Games",
-      "director": "Gary Ross",
-      "releaseYear": 2012,
-      "genre": "Adventure",
-      "poster": "hunger_games_poster.jpg",
-      "rating": 4.5,
-      "comments": [
-        "Jennifer Lawrence's strong and compelling performance.",
-        "A dystopian world with intense survival challenges."
-      ]
-    },
-    {
       "id": 25,
       "title": "The Lord of the Rings: The Two Towers",
       "director": "Peter Jackson",

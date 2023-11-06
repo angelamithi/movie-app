@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Routes, Route,useNavigate } from 'react-router-dom';
+import {Routes, Route,useNavigate,Link } from 'react-router-dom';
 import MoviesPage from './MoviesPage';
 import Sidebar from './Sidebar';
 import Search from './Search';
@@ -51,6 +51,19 @@ function App() {
   function handleGenreChange(genre) {
     setSelectedGenre(genre);
   }
+  function handleDeleteClick(movieId){
+    const deleteMovie=dataMovies.filter((movie)=>movie.id!==movieId)
+       fetch(`http://localhost:3000/movies/${movieId}`,{
+      method:"DELETE",
+    })
+    .then(resp=>resp.json())
+    .then(()=>setDataMovies(deleteMovie))
+    navigate("/");
+   
+  }
+
+ 
+  
   
   return (
     <div className="ui grid">
@@ -92,7 +105,7 @@ function App() {
                 path="/"
                 element={
                   selectedMovieId ? (
-                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} />
+                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick}/>
                   ) : (
                     <MoviesPage
                       dataMovies={filteredMovies}
@@ -103,7 +116,7 @@ function App() {
                   )
                 }
               />
-              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} />} />
+              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick}/>} />
             </Routes>
 
   

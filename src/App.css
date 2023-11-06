@@ -174,10 +174,37 @@ width: 960px;
 }
 .single-movie-container{
   background-color: white;
+  
+}
+#single-image{
+  width:500px;
+  height:600px;
+  margin-left:250px;
+  margin-bottom: 10px;
+
+}
+
+#single-title{
+  margin-left:370px;
+
+
+}
+.single-details{
+  margin-left:400px;
+
+}
+.single-comment{
+  margin-top:10px;
+
   text-align: center;
 
 }
-#single-image{
-  width:600px;
-  height:700px;
+
+.Link{
+  text-align: center;
+  margin-left: 600px;
+}
+.delete-movie-button{
+  margin-left: 60px;
+margin-bottom:10px;
 }

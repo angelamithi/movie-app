@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import {Routes, Route,useNavigate,Link } from 'react-router-dom';
 import MoviesPage from './MoviesPage';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 import Search from './Search';
 import AddMovie from './AddMovie';
-import CategoryFilter from './CategoryFilter';
+// import CategoryFilter from './CategoryFilter';
 import SingleMoviePage from './SingleMoviePage';
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
@@ -74,6 +74,7 @@ function App() {
             <h1 className="ui header">Movie App</h1>
        </div>
       </div>
+      
       {showAddMovieForm ? (
         <AddMovie onFormSubmit={handleAddMovie} onCancel={() => setShowAddMovieForm(false)} />
       ) : (

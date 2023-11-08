@@ -15,6 +15,7 @@ function App() {
   const [search,setSearch]=useState("");
   const [selectedMovieId, setSelectedMovieId] = useState(null);
   const [selectedGenre, setSelectedGenre] = useState('All');
+ 
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -41,7 +42,7 @@ function App() {
       });
   }
   let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()));
-  const filteredMovies = selectedGenre === 'All' ? dataMovies: searchResults.filter((movie) => movie.genre === selectedGenre);
+  const filteredMovies = selectedGenre === 'All' ? searchResults: searchResults.filter((movie) => movie.genre === selectedGenre);
 
   function handleMovieClick(id) {
     console.log('Clicked movie ID:', id);
@@ -51,6 +52,9 @@ function App() {
   function handleGenreChange(genre) {
     setSelectedGenre(genre);
   }
+
+  
+  
   function handleDeleteClick(movieId){
     const deleteMovie=dataMovies.filter((movie)=>movie.id!==movieId)
        fetch(`http://localhost:3000/movies/${movieId}`,{
@@ -112,6 +116,9 @@ function App() {
                       selectedGenre={selectedGenre}
                       onGenreChange={handleGenreChange}
                       handleMovieClick={handleMovieClick}
+                     setDataMovies={setDataMovies}
+                    
+
                     />
                   )
                 }

@@ -27,19 +27,6 @@
       ]
     },
     {
-      "id": 3,
-      "title": "Pulp Fiction",
-      "director": "Quentin Tarantino",
-      "releaseYear": 1994,
-      "genre": "Crime",
-      "poster": "pulp_fiction_poster.jpg",
-      "rating": 4.7,
-      "comments": [
-        "Classic Tarantino film with memorable dialogues.",
-        "The nonlinear narrative was brilliantly executed."
-      ]
-    },
-    {
       "id": 4,
       "title": "The Shawshank Redemption",
       "director": "Frank Darabont",
@@ -300,19 +287,6 @@
       ]
     },
     {
-      "id": 25,
-      "title": "The Lord of the Rings: The Two Towers",
-      "director": "Peter Jackson",
-      "releaseYear": 2002,
-      "genre": "Fantasy",
-      "poster": "lotr_two_towers_poster.jpg",
-      "rating": 4.8,
-      "comments": [
-        "Epic battles and character development continue in Middle-earth.",
-        "Gollum's CGI was groundbreaking for its time."
-      ]
-    },
-    {
       "title": "Batman",
       "director": "Matt Reeves",
       "releaseYear": "2023-11-03",
@@ -320,6 +294,24 @@
       "ratings": "4.8",
       "comments": "Epic Movie",
       "id": 26
+    },
+    {
+      "title": "Batcman",
+      "director": "Christian Nolan",
+      "releaseYear": "2023-11-01",
+      "poster": "C:\\fakepath\\avengers_poster.jpg",
+      "ratings": "5.0",
+      "comments": "Very Nice Movie.",
+      "id": 27
+    },
+    {
+      "title": "Spiderman",
+      "director": "Matt Reeves",
+      "releaseYear": "2023-09-28",
+      "poster": "C:\\fakepath\\social_network_poster.jpg",
+      "ratings": "5.6",
+      "comments": "Great Movie",
+      "id": 28
     }
   ]
 }

@@ -6,7 +6,7 @@
       "director": "Christopher Nolan",
       "releaseYear": 2010,
       "genre": "Sci-Fi",
-      "poster": "inception_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/493a0280bd3ad05f034dab8e989bfeca.jpeg",
       "rating": 4.5,
       "comments": [
         "Mind-bending movie! Loved the plot twists.",
@@ -19,7 +19,7 @@
       "director": "Christopher Nolan",
       "releaseYear": 2008,
       "genre": "Action",
-      "poster": "dark_knight_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/268c537459139004b3bbc2c14bb27d72.jpeg",
       "rating": 4.8,
       "comments": [
         "Heath Ledger's Joker performance was iconic.",
@@ -32,7 +32,7 @@
       "director": "Frank Darabont",
       "releaseYear": 1994,
       "genre": "Drama",
-      "poster": "shawshank_redemption_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/00b5180d9a34aa8f09d7ff2b236a29f9.jpeg",
       "rating": 4.9,
       "comments": [
         "Emotionally powerful and thought-provoking.",
@@ -45,7 +45,7 @@
       "director": "David Fincher",
       "releaseYear": 1999,
       "genre": "Drama",
-      "poster": "fight_club_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/fc9dd3d66fba5a3a278b72c7736ff909.jpeg",
       "rating": 4.6,
       "comments": [
         "Twisted and mind-boggling plot.",
@@ -58,7 +58,7 @@
       "director": "Lana Wachowski, Lilly Wachowski",
       "releaseYear": 1999,
       "genre": "Sci-Fi",
-      "poster": "matrix_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/f700374d29b16bccb59c70e62520c8f0.jpeg",
       "rating": 4.4,
       "comments": [
         "Revolutionary visual effects for its time.",
@@ -71,7 +71,7 @@
       "director": "Robert Zemeckis",
       "releaseYear": 1994,
       "genre": "Drama",
-      "poster": "forrest_gump_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/7280a31329a85754ebd87b51cc583055.jpeg",
       "rating": 4.7,
       "comments": [
         "Heartfelt and inspirational story.",
@@ -84,7 +84,7 @@
       "director": "James Cameron",
       "releaseYear": 1997,
       "genre": "Romance",
-      "poster": "titanic_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/1ca03f916c2d1daef31bbc3037f8d604.jpeg",
       "rating": 4.5,
       "comments": [
         "Epic romance on a grand scale.",
@@ -97,7 +97,7 @@
       "director": "Francis Ford Coppola",
       "releaseYear": 1972,
       "genre": "Crime",
-      "poster": "godfather_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/eccb6729b11e0ba0c3bfd9a3280aeb8e.jpeg",
       "rating": 4.9,
       "comments": [
         "A masterpiece of storytelling and character development.",
@@ -110,7 +110,7 @@
       "director": "Steven Spielberg",
       "releaseYear": 1993,
       "genre": "Drama",
-      "poster": "schindlers_list_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
       "rating": 4.8,
       "comments": [
         "Powerful and haunting portrayal of the Holocaust.",
@@ -123,7 +123,7 @@
       "director": "Peter Jackson",
       "releaseYear": 2001,
       "genre": "Fantasy",
-      "poster": "lotr_fellowship_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/bec8eb9fb08adf9fa57ff5edbce78f1d.jpeg",
       "rating": 4.9,
       "comments": [
         "A visually stunning adaptation of J.R.R. Tolkien's masterpiece.",
@@ -136,7 +136,7 @@
       "director": "Joss Whedon",
       "releaseYear": 2012,
       "genre": "Action",
-      "poster": "avengers_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/b77b59b678c5c76a345eceae8c35a3ac.jpeg",
       "rating": 4.6,
       "comments": [
         "The ultimate superhero ensemble film.",
@@ -149,7 +149,7 @@
       "director": "Steven Spielberg",
       "releaseYear": 1993,
       "genre": "Adventure",
-      "poster": "jurassic_park_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/9659033d130f9bfde94a758747f23a11.jpeg",
       "rating": 4.5,
       "comments": [
         "Revolutionized visual effects in the film industry.",
@@ -162,7 +162,7 @@
       "director": "Baz Luhrmann",
       "releaseYear": 2013,
       "genre": "Drama",
-      "poster": "gatsby_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/08/b7717d6eb2d1ebe77b3e10f1a0a4ab7e.jpeg",
       "rating": 4.4,
       "comments": [
         "A visually stunning and stylish adaptation of the classic novel.",
@@ -287,31 +287,36 @@
       ]
     },
     {
-      "title": "Batman",
-      "director": "Matt Reeves",
-      "releaseYear": "2023-11-03",
-      "poster": "C:\\fakepath\\dark_knight_poster.jpg",
-      "ratings": "4.8",
-      "comments": "Epic Movie",
-      "id": 26
+      "title": "zzaz",
+      "director": "ww",
+      "releaseYear": "2023-11-10",
+      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
+      "ratings": "4.5",
+      "comments": [
+        "E",
+        "p",
+        "i",
+        "c",
+        " ",
+        "M",
+        "o",
+        "v",
+        "i",
+        "e",
+        "Epic Movie"
+      ],
+      "id": 24
     },
     {
-      "title": "Batcman",
-      "director": "Christian Nolan",
-      "releaseYear": "2023-11-01",
-      "poster": "C:\\fakepath\\avengers_poster.jpg",
-      "ratings": "5.0",
-      "comments": "Very Nice Movie.",
-      "id": 27
-    },
-    {
-      "title": "Spiderman",
-      "director": "Matt Reeves",
-      "releaseYear": "2023-09-28",
-      "poster": "C:\\fakepath\\social_network_poster.jpg",
-      "ratings": "5.6",
-      "comments": "Great Movie",
-      "id": 28
+      "title": "njn",
+      "director": "jkjk",
+      "releaseYear": "2023-11-02",
+      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
+      "ratings": "88",
+      "comments": [
+        "bh"
+      ],
+      "id": 25
     }
   ]
 }

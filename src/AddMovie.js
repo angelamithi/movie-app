@@ -7,19 +7,20 @@ function AddMovie({ onFormSubmit, onCancel }) {
     releaseYear: '',
     poster: '',
     ratings: '',
-    comments: '',
+    comments: [],
   });
 
   function handleSubmit(e) {
     e.preventDefault();
-    onFormSubmit(formData);
+    const updatedFormData={...formData, comments:[...formData.comments]}
+    onFormSubmit( updatedFormData);
     setFormData({
       title: '',
       director: '',
       releaseYear: '',
       poster: '',
       ratings: '',
-      comments: '',
+      comments: [],
     });
   }
 
@@ -27,9 +28,10 @@ function AddMovie({ onFormSubmit, onCancel }) {
     const { id, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
-      [id]: value,
+      [id]: id === 'comments' ? value.split('\n') : value, 
     }));
   }
+  
 
   return (
     <div>
@@ -40,7 +42,7 @@ function AddMovie({ onFormSubmit, onCancel }) {
           Release Year:
           <input type="date" id="releaseYear" value={formData.releaseYear} onChange={handleChange} required />
         </label>
-        <input type="file" id="poster" accept="image/*" onChange={handleChange} />
+        <input type="text" id="poster" placeholder='Enter Image Url ' onChange={handleChange} value={formData.poster} required/>
         <input type="text" id="ratings" placeholder="Movie Ratings" value={formData.ratings} onChange={handleChange} />
         <input type="textarea" id="comments" placeholder="Movie Comments" value={formData.comments} onChange={handleChange} />
 

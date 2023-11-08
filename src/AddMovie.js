@@ -9,10 +9,12 @@ function AddMovie({ onFormSubmit, onCancel }) {
     ratings: '',
     comments: '',
   });
+  
 
   function handleSubmit(e) {
     e.preventDefault();
-    onFormSubmit(formData);
+    console.log(e.target.files)
+    // onFormSubmit(formData);
     setFormData({
       title: '',
       director: '',
@@ -30,6 +32,13 @@ function AddMovie({ onFormSubmit, onCancel }) {
       [id]: value,
     }));
   }
+  function handleImage(e){
+    console.log(e.target.files[0])
+    setFormData((prevData) => ({
+      ...prevData,
+      poster: URL.createObjectURL(e.target.files[0]),
+    }))
+  }
 
   return (
     <div>
@@ -40,7 +49,7 @@ function AddMovie({ onFormSubmit, onCancel }) {
           Release Year:
           <input type="date" id="releaseYear" value={formData.releaseYear} onChange={handleChange} required />
         </label>
-        <input type="file" id="poster" accept="image/*" onChange={handleChange} />
+        <input type="file" id="poster" accept='image/*' onChange={handleImage} />
         <input type="text" id="ratings" placeholder="Movie Ratings" value={formData.ratings} onChange={handleChange} />
         <input type="textarea" id="comments" placeholder="Movie Comments" value={formData.comments} onChange={handleChange} />
 

@@ -15,6 +15,7 @@ function App() {
   const [search,setSearch]=useState("");
   const [selectedMovieId, setSelectedMovieId] = useState(null);
   const [selectedGenre, setSelectedGenre] = useState('All');
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
   }, []);
 
   function handleAddMovie(newMovie) {
+    console.log(newMovie)
     fetch('http://localhost:3000/movies', {
       method: 'POST',
       headers: {

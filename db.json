@@ -320,6 +320,42 @@
       "ratings": "4.8",
       "comments": "Epic Movie",
       "id": 26
+    },
+    {
+      "title": "Jack and the bean stock ",
+      "director": "Gary J",
+      "releaseYear": "2023-11-24",
+      "poster": "C:\\fakepath\\download.jpeg",
+      "ratings": "5",
+      "comments": "Awesome movie",
+      "id": 27
+    },
+    {
+      "title": "Annie",
+      "director": "Will Gluck ",
+      "releaseYear": "2023-11-16",
+      "poster": "C:\\fakepath\\PG 2014 ‧ Musical_Family_Comedy_Drama ‧ 1h 58m.jpeg",
+      "ratings": "5",
+      "comments": "This is an awesome movie",
+      "id": 28
+    },
+    {
+      "title": "Big mama",
+      "director": "Bill Whitesell",
+      "releaseYear": "2023-11-16",
+      "poster": "blob:http://localhost:3001/fb93bc64-2311-43e7-973b-6400d15b1e7d",
+      "ratings": "5",
+      "comments": "Very funny",
+      "id": 29
+    },
+    {
+      "title": "Big mama",
+      "director": "Bill Whitesell",
+      "releaseYear": "2023-11-09",
+      "poster": "blob:http://localhost:3001/7dad9e6e-6ea3-4f2f-8ae8-709ff0b37e02",
+      "ratings": "5",
+      "comments": "Very funny",
+      "id": 30
     }
   ]
 }

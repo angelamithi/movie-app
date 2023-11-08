@@ -3,7 +3,7 @@ import MoviesContainer from "./MoviesContainer";
 import CategoryFilter from "./CategoryFilter";
 import SortMovies from "./SortMovies";
 
-function MoviesPage({ dataMovies, selectedGenre, onGenreChange,handleMovieClick,setDataMovies }) {
+function MoviesPage({ dataMovies, selectedGenre, onGenreChange,handleMovieClick,setDataMovies,like,setLike }) {
  
 
   return (
@@ -11,7 +11,7 @@ function MoviesPage({ dataMovies, selectedGenre, onGenreChange,handleMovieClick,
       <CategoryFilter selectedGenre={selectedGenre} onGenreChange={onGenreChange}  />
       <SortMovies  setDataMovies={setDataMovies} />
       <div className="ui segment custom-background">
-        <MoviesContainer dataMovies={dataMovies} handleMovieClick={handleMovieClick} />
+        <MoviesContainer dataMovies={dataMovies} handleMovieClick={handleMovieClick} like={like} setLike={setLike} />
       </div>
      
     </div>

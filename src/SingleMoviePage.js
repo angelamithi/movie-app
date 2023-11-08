@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
+import LikeButton from './LikeButton';
 
-function SingleMoviePage({ dataMovies, onDelete}) {
+function SingleMoviePage({ dataMovies, onDelete,like,dislike,setLikeButton,setDislikeButton}) {
   const { id } = useParams();
   const selectedMovie = dataMovies.find((movie) => movie.id === parseInt(id));
 
@@ -24,6 +25,10 @@ function SingleMoviePage({ dataMovies, onDelete}) {
       <p className='single-comment'><strong>Comments:</strong>{comments.map((comment,index)=>(
         <p style={{textAlign: 'center'}} key={index}>{comment}</p>
       ))}</p>
+
+    <div>
+    <LikeButton like={like} dislike={dislike} setDislikeButton={setDislikeButton} setLikeButton={setLikeButton}/>
+    </div>
      
   
   <button className='delete-movie-button' onClick={()=>onDelete(selectedMovie.id)}>Delete Movie</button>

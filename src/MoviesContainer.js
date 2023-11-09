@@ -2,7 +2,7 @@ import React from "react";
 import MovieCard from "./MovieCard";
 
 function MoviesContainer({dataMovies, handleMovieClick }) {
-  const imageUrl = process.env.PUBLIC_URL + '/images/';
+  //const imageUrl = process.env.PUBLIC_URL + '/images/';
 
   return (
     <div className="movie-container">
@@ -15,7 +15,8 @@ function MoviesContainer({dataMovies, handleMovieClick }) {
             <MovieCard
               key={movie.id}
               releaseYear={movie.releaseYear}
-              posterUrl={imageUrl + movie.poster}
+             // posterUrl={imageUrl + movie.poster}
+             posterUrl={movie.poster}
               title={movie.title}
               genre={movie.genre}
               id={movie.id}

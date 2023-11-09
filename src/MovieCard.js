@@ -1,8 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import LikeButton from "./LikeButton";
 
 
-function MovieCard({id, releaseYear, posterUrl, title, genre}) {
+
+function MovieCard({id, releaseYear, posterUrl, title, genre,like,setLike}) {
   return (
    <div className="space-movie-card">
     
@@ -18,6 +20,9 @@ function MovieCard({id, releaseYear, posterUrl, title, genre}) {
         <div id="titleCard">{title}</div>
         <div>{releaseYear}</div>
         <div>{genre}</div>
+        
+        
+
         </div>
         </div>
         </div>

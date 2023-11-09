@@ -15,7 +15,13 @@ function App() {
   const [search,setSearch]=useState("");
   const [selectedMovieId, setSelectedMovieId] = useState(null);
   const [selectedGenre, setSelectedGenre] = useState('All');
+<<<<<<< HEAD
 
+=======
+  const [like,setLike]=useState(0);
+  const [dislike,setDisLike]=useState(0);
+ 
+>>>>>>> refs/remotes/origin/main
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -43,7 +49,7 @@ function App() {
       });
   }
   let searchResults=dataMovies.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()));
-  const filteredMovies = selectedGenre === 'All' ? dataMovies: searchResults.filter((movie) => movie.genre === selectedGenre);
+  const filteredMovies = selectedGenre === 'All' ? searchResults: searchResults.filter((movie) => movie.genre === selectedGenre);
 
   function handleMovieClick(id) {
     console.log('Clicked movie ID:', id);
@@ -53,6 +59,8 @@ function App() {
   function handleGenreChange(genre) {
     setSelectedGenre(genre);
   }
+
+
   function handleDeleteClick(movieId){
     const deleteMovie=dataMovies.filter((movie)=>movie.id!==movieId)
        fetch(`http://localhost:3000/movies/${movieId}`,{
@@ -63,9 +71,13 @@ function App() {
     navigate("/");
    
   }
-
+function handleLike(){
+  setLike(like+1);
+}
  
-  
+function handleDislike(){
+  setDisLike(dislike+1);
+}
   
   return (
     <div className="ui grid">
@@ -107,18 +119,21 @@ function App() {
                 path="/"
                 element={
                   selectedMovieId ? (
-                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick}/>
+                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick} like={like} dislike={dislike} setLikeButton={handleLike} setDislikeButton={handleDislike}/>
                   ) : (
                     <MoviesPage
                       dataMovies={filteredMovies}
                       selectedGenre={selectedGenre}
                       onGenreChange={handleGenreChange}
                       handleMovieClick={handleMovieClick}
+                      setDataMovies={setDataMovies}
+                     
+
                     />
                   )
                 }
               />
-              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick}/>} />
+              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick} like={like} dislike={dislike} setLikeButton={handleLike} setDislikeButton={handleDislike}/>} />
             </Routes>
 
   

@@ -1,19 +1,6 @@
 {
   "movies": [
     {
-      "id": 1,
-      "title": "Inception",
-      "director": "Christopher Nolan",
-      "releaseYear": 2010,
-      "genre": "Sci-Fi",
-      "poster": "inception_poster.jpg",
-      "rating": 4.5,
-      "comments": [
-        "Mind-bending movie! Loved the plot twists.",
-        "The visual effects were groundbreaking."
-      ]
-    },
-    {
       "id": 2,
       "title": "The Dark Knight",
       "director": "Christopher Nolan",

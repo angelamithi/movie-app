@@ -15,16 +15,19 @@
 }
 .search-container{
   margin-top:0px;
+  
 
 }
 .space-movie-card{
   margin-bottom:30px;
   margin-top: 20px;
+  
 }
 .addButton{
   margin-top:0px;
   width:100px;
-  margin-left:0px;
+  margin-left:px;
+
 }
 .cancelButton{
   margin-left:10px;
@@ -59,7 +62,8 @@
   color:black;
 }
 #titleCard{
-  color:black
+  color:black;
+  
 }
 
 .color-header {
@@ -207,4 +211,9 @@ width: 960px;
 .delete-movie-button{
   margin-left: 60px;
 margin-bottom:10px;
+}
+
+.ui.center.aligned.segment{
+  background-color: antiquewhite;
+  
 }

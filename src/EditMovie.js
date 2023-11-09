@@ -8,7 +8,7 @@ function EditMovie({selectedMovieId,onEdit, edit }) {
    }
  
    return (
-     <div>
+     <div className='EditMovies'>
        <input type="text" placeholder="Enter more comments" value={updatedComments} onChange={(e) => setUpdatedComments(e.target.value)} />
        <button onClick={handleEditClick}>Save</button>
      </div>

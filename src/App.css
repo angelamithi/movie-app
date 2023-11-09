@@ -1,51 +1,159 @@
+.like-button {
+  /* Add your styles here */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
 
+.like-button button {
+  /* Common styles for like and dislike buttons */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.like-button .like-Button {
+  /* Styles for the like button */
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.like-button .dislike-Button {
+  /* Styles for the dislike button */
+  background-color: #e57373;
+  color: #fff;
+}
+
+.like-button button:hover {
+  /* Hover styles for both like and dislike buttons */
+  opacity: 0.8;
+}
+
+.EditMovies {
+  /* Add your styles here */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.EditMovies input {
+  /* Styles for the input field */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.EditMovies button {
+  /* Styles for the Save button */
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.EditMovies button:hover {
+  /* Hover styles for the Save button */
+  background-color: #ec0808;
+}
+
+.sort-movies {
+  /* Add your styles here */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #92dcfa;
+  border: 1px solid #030303;
+  border-radius: 5px;
+}
+
+
+
+.single-movie-container {
+  width: 135%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 100%;
+}
+
+#root {
+  background-color: rgb(0, 0, 0);
+}
 
 .ui.card.custom-card {
-  width:180px;
+  width: 180px;
   height: 360px;
-  margin:30px;
-  
+  margin: 30px;
+  transition: transform 0.3s ease-in-out;
 }
- .ui.grid{
+
+.ui.card.custom-card:hover {
+  transform: scale(1.40);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+
+.ui.grid {
   color: #343739;
- }
- 
-.space-cards{
-  align-items: center;
-}
-.search-container{
-  margin-top:0px;
 
 }
-.space-movie-card{
-  margin-bottom:30px;
+
+.space-cards {
+  align-items: center;
+}
+
+.search-container {
+  margin-top: 0px;
+
+}
+
+.space-movie-card {
+  margin-bottom: 30px;
   margin-top: 20px;
 }
-.addButton{
-  margin-top:0px;
-  width:100px;
-  margin-left:0px;
+
+.addButton {
+  margin-top: 0px;
+  width: 100px;
+  margin-left: 0px;
 }
-.cancelButton{
-  margin-left:10px;
+
+.cancelButton {
+  margin-left: 10px;
 }
-.addMovieDiv{
+
+.addMovieDiv {
   margin-top: 20px;
 }
+
 .custom-search-bar {
   width: 93%;
-  margin-left:48px;
+  margin-left: 48px;
   height: 10px;
-  color: black;
+  color: rgb(70, 6, 219);
   border-radius: 10px;
   border-width: 10px;
   background-color: white;
   margin-top: 20px;
-  margin-bottom: 30px;;
- 
- 
+  margin-bottom: 30px;
+  ;
+
+
+
 }
-.main-table{
+
+/* .main-table{
   width:80%;
   margin-top:60px;
 }
@@ -80,26 +188,102 @@
 .movie-header{
  margin-bottom:15px ;
  text-align: center;
+ font-size: 20px;
+ font-family: italics;
+text-shadow: 1px 1px 2px pink;
+}
  
 
 
-}
+
 .container{
   background-color: #343739;
   width:1000px;
   margin-left:20px;
   
   
+} */
+
+.main-table {
+  width: 80%;
+  margin-top: 60px;
+}
+
+.ui.fluid.icon.input input::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.space {
+  padding-top: 25px;
+  color: black;
+}
+
+#titleCard {
+  color: black;
+}
+
+.color-header {
+  background-color: #343739;
+  padding: 10px;
+  width: 96%;
+  margin-left: 20px;
+}
+
+.twelve.wide.column.custom-background {
+  margin-top: 30px;
+  margin-left: 5px;
+  width: 99%;
+}
+
+.movie-header {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+  /* Slightly increased font size */
+  font-family: 'Arial', sans-serif;
+  /* Using a generic font family */
+  font-style: italic;
+  text-shadow: 2px 2px 4px pink;
+  /* Enhanced text shadow */
+}
+
+.container {
+  background-color: #000000;
+  /* width: 1285px; */
+  margin-left: 20px;
+  padding: 20px;
+  /* Added padding for spacing */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(165, 191, 240, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  width: auto;
+}
+
+.container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  /* Slightly stronger box shadow on hover */
 }
 
 
-.header-four{
+/* .header-four{
  
   margin-left: 8px;
 
-}
+} */
 
-.ui.basic.button.new-button{
+/* .header-four {
+  margin-left: 8px;
+  font-size: 24px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 4px;
+} */
+
+/* .ui.basic.button.new-button{
   margin-left: 20px;
   margin-bottom: 20px;
   color: black;
@@ -117,8 +301,8 @@
 .ui.grid.four.wide.column {
   width: 25%;
   
-}
-.form-container{
+} */
+/* .form-container{
 margin-top:20px;
 margin-bottom: 10px;
 margin-left:30px;
@@ -127,12 +311,13 @@ justify-content: space-between;
 border: 1px solid;
 width: 960px;
 
+} */
+
+.form input {
+  margin: 10px;
 }
 
-.form input{
-  margin:10px;
-}
-#title{
+/* #title{
   margin:20px;
   height:30px;
   width:300px;
@@ -143,16 +328,16 @@ width: 960px;
   height:30px;
   margin-right: 70px;
   margin-left:50px;
-}
+} */
 
 
-#ratings{
+/* #ratings{
   width:180px;
   height: 30px;
   margin-left:35px;
 
-}
-#add-image{
+} */
+/* #add-image{
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -161,50 +346,363 @@ width: 960px;
   height:70px;
   margin-left: 80px;
 
-}
+} */
 
 
-.filter{
+/* .filter{
   margin-top: 30px;
   margin-left: 810px;
-}
+} */
 
-.form{
+/* .form{
   background-color: white;
-}
-.single-movie-container{
+} */
+/* .single-movie-container{
   background-color: white;
   
-}
-#single-image{
+} */
+/* #single-image{
   width:500px;
   height:600px;
   margin-left:250px;
   margin-bottom: 10px;
 
-}
+} */
 
-#single-title{
+/* #single-title{
   margin-left:370px;
 
 
-}
-.single-details{
+} */
+/* .single-details{
   margin-left:400px;
 
-}
-.single-comment{
+} */
+/* .single-comment{
   margin-top:10px;
 
   text-align: center;
 
-}
+} */
 
-.Link{
+/* .Link{
   text-align: center;
   margin-left: 600px;
-}
-.delete-movie-button{
+} */
+/* .delete-movie-button{
   margin-left: 60px;
 margin-bottom:10px;
+} */
+
+.delete-movie-button {
+  background-color: #03da5d;
+  /* Red color for delete button */
+  color: #fff;
+  /* White text color */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.delete-movie-button:hover {
+  background-color: #cc0000;
+  /* Darker red on hover */
+}
+
+.Link {
+  text-align: center;
+  margin-left: 600px;
+  color: #007bff;
+  /* Blue color for the link */
+  text-decoration: none;
+  /* Remove default underline */
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 12px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Link:hover {
+  color: #fff;
+  /* White text color on hover */
+  background-color: #007bff;
+  /* Blue background color on hover */
+}
+
+.single-comment {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #f3eeee;
+  /* Light gray background color */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+}
+
+/* Add hover effect for better user interaction */
+.single-comment:hover {
+  background-color: #cac0c0;
+  /* Slightly darker gray on hover */
+}
+
+.single-details {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /* Adjust the width as needed */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for better user interaction */
+.single-details:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#single-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /* Adjust the width as needed */
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #007bff;
+  /* Blue border color */
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #007bff;
+  /* Blue text color */
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for better user interaction */
+#single-title:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#single-image {
+  width: 500px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect for better user interaction */
+#single-image:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.single-movie-container {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Add hover effect for better user interaction */
+.single-movie-container {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Add hover effect for better user interaction */
+.single-movie-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.filter {
+  margin-top: 30px;
+  margin-left: 810px;
+  display: flex;
+  align-items: center;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.filter select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333333;
+  cursor: pointer;
+}
+
+.filter button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.filter button:hover {
+  background-color: #0056b3;
+}
+
+.form {
+  background-color: #f8f9fa;
+  /* Light grayish-blue background color */
+  border: 1px solid #ced4da;
+  /* Border color */
+  border-radius: 10px;
+  /* Rounded corners */
+  padding: 20px;
+  width: 300px;
+  /* Adjust the width as needed */
+  margin: 0 auto;
+  /* Center horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+}
+
+/* Add hover effect for better user interaction */
+.form:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Slightly stronger box shadow on hover */
+}
+
+/* Style the form elements */
+.form input,
+.form textarea,
+.form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  /* Border color for input fields */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form button {
+  background-color: #007bff;
+  /* Blue color for the button */
+  color: #fff;
+  /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+  /* Darker blue color on hover */
+}
+
+.ui.basic.button.new-button {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.ui.basic.button.new-button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.ui.basic.button.new-button.directors {
+  margin-left: 10px;
+}
+
+.button-components-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.button-components-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ui.grid.four.wide.column {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+#ratings {
+
+  width: 180px;
+  height: 30px;
+  margin-left: 35px;
+  background-color: #080808;
+  color: #070707;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#ratings:hover {
+  background-color: #0056b3;
+
+}
+
+.header-four {
+  margin-left: 8px;
+  font-size: 24px;
+  color: #007bff;
+  /* Blue text color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+.header-four::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background-color: #007bff;
+  /* Blue underline color */
 }

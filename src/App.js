@@ -30,6 +30,7 @@ function App() {
   }, []);
 
   function handleAddMovie(newMovie) {
+    console.log(newMovie)
     fetch('http://localhost:3000/movies', {
       method: 'POST',
       headers: {

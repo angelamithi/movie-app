@@ -27,7 +27,7 @@ function SortMovies({setDataMovies}){
         })
     }
     return (
-    <div>
+    <div className="sort-movies">
 
      <select onChange={handleChangeName}>
         <option name="Sort Movies By Name">Sort Movies By Name</option>

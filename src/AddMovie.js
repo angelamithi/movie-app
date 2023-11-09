@@ -9,6 +9,7 @@ function AddMovie({ onFormSubmit, onCancel }) {
     ratings: '',
     comments: [],
   });
+  
 
   function handleSubmit(e) {
     e.preventDefault();

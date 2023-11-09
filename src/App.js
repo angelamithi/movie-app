@@ -15,13 +15,9 @@ function App() {
   const [search,setSearch]=useState("");
   const [selectedMovieId, setSelectedMovieId] = useState(null);
   const [selectedGenre, setSelectedGenre] = useState('All');
-<<<<<<< HEAD
-
-=======
   const [like,setLike]=useState(0);
   const [dislike,setDisLike]=useState(0);
  
->>>>>>> refs/remotes/origin/main
   const navigate = useNavigate();
 
   useEffect(() => {

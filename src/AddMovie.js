@@ -13,13 +13,8 @@ function AddMovie({ onFormSubmit, onCancel }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-<<<<<<< HEAD
-    console.log(e.target.files)
-    // onFormSubmit(formData);
-=======
     const updatedFormData={...formData, comments:[...formData.comments]}
     onFormSubmit( updatedFormData);
->>>>>>> refs/remotes/origin/main
     setFormData({
       title: '',
       director: '',
@@ -37,17 +32,7 @@ function AddMovie({ onFormSubmit, onCancel }) {
       [id]: id === 'comments' ? value.split('\n') : value, 
     }));
   }
-<<<<<<< HEAD
-  function handleImage(e){
-    console.log(e.target.files[0])
-    setFormData((prevData) => ({
-      ...prevData,
-      poster: URL.createObjectURL(e.target.files[0]),
-    }))
-  }
-=======
   
->>>>>>> refs/remotes/origin/main
 
   return (
     <div>
@@ -58,11 +43,7 @@ function AddMovie({ onFormSubmit, onCancel }) {
           Release Year:
           <input type="date" id="releaseYear" value={formData.releaseYear} onChange={handleChange} required />
         </label>
-<<<<<<< HEAD
-        <input type="file" id="poster" accept='image/*' onChange={handleImage} />
-=======
         <input type="text" id="poster" placeholder='Enter Image Url ' onChange={handleChange} value={formData.poster} required/>
->>>>>>> refs/remotes/origin/main
         <input type="text" id="ratings" placeholder="Movie Ratings" value={formData.ratings} onChange={handleChange} />
         <input type="textarea" id="comments" placeholder="Movie Comments" value={formData.comments} onChange={handleChange} />
 

@@ -175,7 +175,7 @@
       "director": "David Fincher",
       "releaseYear": 2010,
       "genre": "Drama",
-      "poster": "social_network_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/be638ae7e3f6e41bce31fc073b302b08.jpeg",
       "rating": 4.7,
       "comments": [
         "Fascinating portrayal of the rise of Facebook and its founders.",
@@ -188,7 +188,7 @@
       "director": "Jon Favreau",
       "releaseYear": 2000,
       "genre": "Action",
-      "poster": "iron_man_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/11aaa2336a925fc10423aabcdd3c42b6.jpeg",
       "rating": 4.7,
       "comments": [
         "Robert Downey Jr.'s charismatic performance as Tony Stark.",
@@ -201,7 +201,7 @@
       "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
       "releaseYear": 2018,
       "genre": "Animation",
-      "poster": "spiderverse_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/c76a62e5713a963783c0cf0007dca89f.jpeg",
       "rating": 4.8,
       "comments": [
         "Groundbreaking animation style and storytelling.",
@@ -214,7 +214,7 @@
       "director": "Christopher Nolan",
       "releaseYear": 2012,
       "genre": "Action",
-      "poster": "dark_knight_rises_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/90b50db48ad3e1cabb1e8b6c5f8fffbc.jpeg",
       "rating": 4.6,
       "comments": [
         "A satisfying conclusion to Nolan's Batman trilogy.",
@@ -227,7 +227,7 @@
       "director": "Patty Jenkins",
       "releaseYear": 2017,
       "genre": "Action",
-      "poster": "wonder_woman_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/f1e0eae77d41bfad374b4ed75d54f6cf.jpeg",
       "rating": 4.5,
       "comments": [
         "Gal Gadot's empowering performance as Wonder Woman.",
@@ -240,7 +240,7 @@
       "director": "Chris Columbus",
       "releaseYear": 2001,
       "genre": "Fantasy",
-      "poster": "harry_potter_philosophers_stone_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/e5fe965deaf219acc8f1f90c27c98745.jpeg",
       "rating": 4.8,
       "comments": [
         "Magical world-building and lovable characters.",
@@ -253,7 +253,7 @@
       "director": "George Lucas",
       "releaseYear": 1977,
       "genre": "Sci-Fi",
-      "poster": "star_wars_new_hope_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/a38ef0938bf69fdba2890095c5f62ff2.jpeg",
       "rating": 4.9,
       "comments": [
         "The beginning of an iconic space opera franchise.",
@@ -266,7 +266,7 @@
       "director": "George Miller",
       "releaseYear": 2015,
       "genre": "Action",
-      "poster": "mad_max_fury_road_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/c5ce72f3ad020aa64aa5b9526641ce3b.jpeg",
       "rating": 4.8,
       "comments": [
         "Intense action and visually stunning cinematography.",
@@ -279,7 +279,7 @@
       "director": "James Gunn",
       "releaseYear": 2014,
       "genre": "Action",
-      "poster": "guardians_of_the_galaxy_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/8b738d03317bb1a71adff0119a19fc70.jpeg",
       "rating": 4.6,
       "comments": [
         "A perfect blend of humor, heart, and action.",
@@ -308,61 +308,57 @@
       "id": 24
     },
     {
-<<<<<<< HEAD
       "title": "Batman",
       "director": "Matt Reeves",
       "releaseYear": "2023-11-03",
-      "poster": "C:\\fakepath\\dark_knight_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/2cf2974d15e11790ef4a13a6166560d1.jpeg",
       "ratings": "4.8",
       "comments": "Epic Movie",
       "id": 26
     },
     {
-      "title": "Jack and the bean stock ",
-      "director": "Gary J",
-      "releaseYear": "2023-11-24",
-      "poster": "C:\\fakepath\\download.jpeg",
-      "ratings": "5",
-      "comments": "Awesome movie",
-      "id": 27
-    },
-    {
-      "title": "Annie",
-      "director": "Will Gluck ",
-      "releaseYear": "2023-11-16",
-      "poster": "C:\\fakepath\\PG 2014 ‧ Musical_Family_Comedy_Drama ‧ 1h 58m.jpeg",
-      "ratings": "5",
-      "comments": "This is an awesome movie",
-      "id": 28
-    },
-    {
-      "title": "Big mama",
-      "director": "Bill Whitesell",
-      "releaseYear": "2023-11-16",
-      "poster": "blob:http://localhost:3001/fb93bc64-2311-43e7-973b-6400d15b1e7d",
-      "ratings": "5",
-      "comments": "Very funny",
-      "id": 29
-    },
-    {
-      "title": "Big mama",
-      "director": "Bill Whitesell",
-      "releaseYear": "2023-11-09",
-      "poster": "blob:http://localhost:3001/7dad9e6e-6ea3-4f2f-8ae8-709ff0b37e02",
-      "ratings": "5",
-      "comments": "Very funny",
-      "id": 30
-=======
-      "title": "njn",
-      "director": "jkjk",
-      "releaseYear": "2023-11-02",
-      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
-      "ratings": "88",
+      "title": "Big momma's",
+      "director": "Martin Lawrence",
+      "releaseYear": "2023-11-01",
+      "poster": "https://imgtr.ee/images/2023/11/09/a897e1de7ed96bf8abe65dbca924ae92.jpeg",
+      "ratings": "6",
       "comments": [
-        "bh"
+        "Very funny"
       ],
-      "id": 25
->>>>>>> refs/remotes/origin/main
+      "id": 31
+    },
+    {
+      "title": "Just Mercy ",
+      "director": "Jamie Foxx",
+      "releaseYear": "2023-11-02",
+      "poster": "https://imgtr.ee/images/2023/11/09/99bc5d1d20d0fa9061d292cd5c187801.jpeg",
+      "ratings": "7",
+      "comments": [
+        "Jump scares and heartfelt"
+      ],
+      "id": 32
+    },
+    {
+      "title": "Jack and the beanstalk ",
+      "director": "Gary J",
+      "releaseYear": "2023-11-07",
+      "poster": "https://imgtr.ee/images/2023/11/09/df6d8b91906b4816dbf50ba3d4e7664d.jpeg",
+      "ratings": "6",
+      "comments": [
+        "Fairytale"
+      ],
+      "id": 33
+    },
+    {
+      "title": "Okja",
+      "director": "Bong Joon-ho",
+      "releaseYear": "2023-10-31",
+      "poster": "https://i.pinimg.com/originals/83/4b/ef/834bef2b48f0d92a2b2d1bf7d5ea2421.jpg",
+      "ratings": "5",
+      "comments": [
+        "Heartfelt"
+      ],
+      "id": 34
     }
   ]
 }

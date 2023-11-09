@@ -22,8 +22,9 @@
       "poster": "https://imgtr.ee/images/2023/11/08/268c537459139004b3bbc2c14bb27d72.jpeg",
       "rating": 4.8,
       "comments": [
-        "Heath Ledger's Joker performance was iconic.",
-        "Action-packed and intense storyline."
+        "hallo",
+        "hallo",
+        "more"
       ]
     },
     {
@@ -35,8 +36,8 @@
       "poster": "https://imgtr.ee/images/2023/11/08/00b5180d9a34aa8f09d7ff2b236a29f9.jpeg",
       "rating": 4.9,
       "comments": [
-        "Emotionally powerful and thought-provoking.",
-        "The friendship between the characters was heartwarming."
+        "hallo",
+        "Epic Movie"
       ]
     },
     {
@@ -76,19 +77,6 @@
       "comments": [
         "Heartfelt and inspirational story.",
         "Tom Hanks' performance was exceptional."
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Titanic",
-      "director": "James Cameron",
-      "releaseYear": 1997,
-      "genre": "Romance",
-      "poster": "https://imgtr.ee/images/2023/11/08/1ca03f916c2d1daef31bbc3037f8d604.jpeg",
-      "rating": 4.5,
-      "comments": [
-        "Epic romance on a grand scale.",
-        "Leonardo DiCaprio and Kate Winslet had amazing chemistry."
       ]
     },
     {
@@ -287,78 +275,16 @@
       ]
     },
     {
-      "title": "zzaz",
-      "director": "ww",
-      "releaseYear": "2023-11-10",
-      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
-      "ratings": "4.5",
+      "title": "Jack and the Beanstalk",
+      "director": "Matt Reeves",
+      "releaseYear": "2023-11-07",
+      "poster": "https://imgtr.ee/images/2023/11/09/6e73a5b1a0cfd741c972b24daa169f73.jpeg",
+      "ratings": "6.9",
       "comments": [
-        "E",
-        "p",
-        "i",
-        "c",
-        " ",
-        "M",
-        "o",
-        "v",
-        "i",
-        "e",
-        "Epic Movie"
+        "Epic Movie",
+        "Interesting Movie"
       ],
       "id": 24
-    },
-    {
-      "title": "Batman",
-      "director": "Matt Reeves",
-      "releaseYear": "2023-11-03",
-      "poster": "https://imgtr.ee/images/2023/11/09/2cf2974d15e11790ef4a13a6166560d1.jpeg",
-      "ratings": "4.8",
-      "comments": "Epic Movie",
-      "id": 26
-    },
-    {
-      "title": "Big momma's",
-      "director": "Martin Lawrence",
-      "releaseYear": "2023-11-01",
-      "poster": "https://imgtr.ee/images/2023/11/09/a897e1de7ed96bf8abe65dbca924ae92.jpeg",
-      "ratings": "6",
-      "comments": [
-        "Very funny"
-      ],
-      "id": 31
-    },
-    {
-      "title": "Just Mercy ",
-      "director": "Jamie Foxx",
-      "releaseYear": "2023-11-02",
-      "poster": "https://imgtr.ee/images/2023/11/09/99bc5d1d20d0fa9061d292cd5c187801.jpeg",
-      "ratings": "7",
-      "comments": [
-        "Jump scares and heartfelt"
-      ],
-      "id": 32
-    },
-    {
-      "title": "Jack and the beanstalk ",
-      "director": "Gary J",
-      "releaseYear": "2023-11-07",
-      "poster": "https://imgtr.ee/images/2023/11/09/df6d8b91906b4816dbf50ba3d4e7664d.jpeg",
-      "ratings": "6",
-      "comments": [
-        "Fairytale"
-      ],
-      "id": 33
-    },
-    {
-      "title": "Okja",
-      "director": "Bong Joon-ho",
-      "releaseYear": "2023-10-31",
-      "poster": "https://i.pinimg.com/originals/83/4b/ef/834bef2b48f0d92a2b2d1bf7d5ea2421.jpg",
-      "ratings": "5",
-      "comments": [
-        "Heartfelt"
-      ],
-      "id": 34
     }
   ]
 }

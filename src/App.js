@@ -74,7 +74,29 @@ function handleLike(){
 function handleDislike(){
   setDisLike(dislike+1);
 }
-  
+
+function handleEdit(movieId, updatedComments) {
+  const updatedMovies = dataMovies.map((movie) => {
+    if (movie.id === movieId) {
+      return { ...movie, comments: [...movie.comments, updatedComments] };
+    }
+    return movie;
+  });
+
+  fetch(`http://localhost:3000/movies/${movieId}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ comments: updatedMovies.find((movie) => movie.id === movieId).comments }),
+  })
+    .then((resp) => resp.json())
+    .then(() => {
+      setDataMovies(updatedMovies);
+    });
+}
+
+
   return (
     <div className="ui grid">
       <div className="ui grid">
@@ -115,7 +137,7 @@ function handleDislike(){
                 path="/"
                 element={
                   selectedMovieId ? (
-                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick} like={like} dislike={dislike} setLikeButton={handleLike} setDislikeButton={handleDislike}/>
+                    <SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick} like={like} dislike={dislike} setLikeButton={handleLike} setDislikeButton={handleDislike} onEdit={handleEdit}/>
                   ) : (
                     <MoviesPage
                       dataMovies={filteredMovies}
@@ -129,7 +151,7 @@ function handleDislike(){
                   )
                 }
               />
-              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick} like={like} dislike={dislike} setLikeButton={handleLike} setDislikeButton={handleDislike}/>} />
+              <Route path="/movie/:id" element={<SingleMoviePage dataMovies={dataMovies} id={selectedMovieId} onDelete={handleDeleteClick} like={like} dislike={dislike} setLikeButton={handleLike} setDislikeButton={handleDislike} onEdit={handleEdit}/>} />
             </Routes>
 
   

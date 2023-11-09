@@ -22,8 +22,9 @@
       "poster": "https://imgtr.ee/images/2023/11/08/268c537459139004b3bbc2c14bb27d72.jpeg",
       "rating": 4.8,
       "comments": [
-        "Heath Ledger's Joker performance was iconic.",
-        "Action-packed and intense storyline."
+        "hallo",
+        "hallo",
+        "more"
       ]
     },
     {
@@ -35,8 +36,8 @@
       "poster": "https://imgtr.ee/images/2023/11/08/00b5180d9a34aa8f09d7ff2b236a29f9.jpeg",
       "rating": 4.9,
       "comments": [
-        "Emotionally powerful and thought-provoking.",
-        "The friendship between the characters was heartwarming."
+        "hallo",
+        "Epic Movie"
       ]
     },
     {
@@ -76,19 +77,6 @@
       "comments": [
         "Heartfelt and inspirational story.",
         "Tom Hanks' performance was exceptional."
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Titanic",
-      "director": "James Cameron",
-      "releaseYear": 1997,
-      "genre": "Romance",
-      "poster": "https://imgtr.ee/images/2023/11/08/1ca03f916c2d1daef31bbc3037f8d604.jpeg",
-      "rating": 4.5,
-      "comments": [
-        "Epic romance on a grand scale.",
-        "Leonardo DiCaprio and Kate Winslet had amazing chemistry."
       ]
     },
     {
@@ -287,36 +275,16 @@
       ]
     },
     {
-      "title": "zzaz",
-      "director": "ww",
-      "releaseYear": "2023-11-10",
-      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
-      "ratings": "4.5",
+      "title": "Jack and the Beanstalk",
+      "director": "Matt Reeves",
+      "releaseYear": "2023-11-07",
+      "poster": "https://imgtr.ee/images/2023/11/09/6e73a5b1a0cfd741c972b24daa169f73.jpeg",
+      "ratings": "6.9",
       "comments": [
-        "E",
-        "p",
-        "i",
-        "c",
-        " ",
-        "M",
-        "o",
-        "v",
-        "i",
-        "e",
-        "Epic Movie"
+        "Epic Movie",
+        "Interesting Movie"
       ],
       "id": 24
-    },
-    {
-      "title": "njn",
-      "director": "jkjk",
-      "releaseYear": "2023-11-02",
-      "poster": "https://imgtr.ee/images/2023/11/08/a9b87b435e28534702e0eae0a599ee7d.jpeg",
-      "ratings": "88",
-      "comments": [
-        "bh"
-      ],
-      "id": 25
     }
   ]
 }

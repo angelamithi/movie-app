@@ -29,14 +29,13 @@
     },
     {
       "id": 4,
-      "title": "The Shawshank Redemption",
-      "director": "Frank Darabont",
-      "releaseYear": 1994,
+      "title": "Shawk Redemption ok",
+      "director": "Martin Reeves",
+      "releaseYear": "2023-11-24",
       "genre": "Drama",
       "poster": "https://imgtr.ee/images/2023/11/08/00b5180d9a34aa8f09d7ff2b236a29f9.jpeg",
-      "rating": 4.9,
+      "rating": "8.0",
       "comments": [
-        "hallo",
         "Epic Movie"
       ]
     },

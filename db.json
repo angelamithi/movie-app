@@ -286,6 +286,17 @@
         "Fabulous movie"
       ],
       "id": 24
+    },
+    {
+      "title": "Black Panther",
+      "director": "Ryan Coogler",
+      "releaseYear": "2018-06-08",
+      "poster": "https://imgtr.ee/images/2023/11/09/26d0aa689264d2356fefabf2c53f9ea3.jpeg",
+      "ratings": "5",
+      "comments": [
+        "The only movie you need"
+      ],
+      "id": 25
     }
   ]
 }

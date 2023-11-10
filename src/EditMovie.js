@@ -5,6 +5,14 @@ function EditMovie({ selectedMovieId, onEdit, selectedMovie }) {
 
   function handleEditClick() {
     onEdit(selectedMovieId, updatedMovie);
+    setUpdatedMovie({
+      title: '',
+      director: '',
+      releaseYear: '',
+      ratings: '',
+      comments: [],
+    });
+
   }
 
   return (

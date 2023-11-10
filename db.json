@@ -29,15 +29,14 @@
     },
     {
       "id": 4,
-      "title": "The Shawshank Redemption",
-      "director": "Frank Darabont",
-      "releaseYear": 1994,
+      "title": "Shawk Redemption",
+      "director": "Martin Reeves",
+      "releaseYear": "1987",
       "genre": "Drama",
       "poster": "https://imgtr.ee/images/2023/11/08/00b5180d9a34aa8f09d7ff2b236a29f9.jpeg",
-      "rating": 4.9,
+      "rating": "9.0",
       "comments": [
-        "hallo",
-        "Epic Movie"
+        "Very Nice Movie"
       ]
     },
     {
@@ -163,7 +162,7 @@
       "director": "David Fincher",
       "releaseYear": 2010,
       "genre": "Drama",
-      "poster": "social_network_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/be638ae7e3f6e41bce31fc073b302b08.jpeg",
       "rating": 4.7,
       "comments": [
         "Fascinating portrayal of the rise of Facebook and its founders.",
@@ -176,7 +175,7 @@
       "director": "Jon Favreau",
       "releaseYear": 2000,
       "genre": "Action",
-      "poster": "iron_man_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/11aaa2336a925fc10423aabcdd3c42b6.jpeg",
       "rating": 4.7,
       "comments": [
         "Robert Downey Jr.'s charismatic performance as Tony Stark.",
@@ -189,7 +188,7 @@
       "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
       "releaseYear": 2018,
       "genre": "Animation",
-      "poster": "spiderverse_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/c76a62e5713a963783c0cf0007dca89f.jpeg",
       "rating": 4.8,
       "comments": [
         "Groundbreaking animation style and storytelling.",
@@ -202,7 +201,7 @@
       "director": "Christopher Nolan",
       "releaseYear": 2012,
       "genre": "Action",
-      "poster": "dark_knight_rises_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/90b50db48ad3e1cabb1e8b6c5f8fffbc.jpeg",
       "rating": 4.6,
       "comments": [
         "A satisfying conclusion to Nolan's Batman trilogy.",
@@ -215,7 +214,7 @@
       "director": "Patty Jenkins",
       "releaseYear": 2017,
       "genre": "Action",
-      "poster": "wonder_woman_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/f1e0eae77d41bfad374b4ed75d54f6cf.jpeg",
       "rating": 4.5,
       "comments": [
         "Gal Gadot's empowering performance as Wonder Woman.",
@@ -228,7 +227,7 @@
       "director": "Chris Columbus",
       "releaseYear": 2001,
       "genre": "Fantasy",
-      "poster": "harry_potter_philosophers_stone_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/e5fe965deaf219acc8f1f90c27c98745.jpeg",
       "rating": 4.8,
       "comments": [
         "Magical world-building and lovable characters.",
@@ -241,7 +240,7 @@
       "director": "George Lucas",
       "releaseYear": 1977,
       "genre": "Sci-Fi",
-      "poster": "star_wars_new_hope_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/a38ef0938bf69fdba2890095c5f62ff2.jpeg",
       "rating": 4.9,
       "comments": [
         "The beginning of an iconic space opera franchise.",
@@ -254,7 +253,7 @@
       "director": "George Miller",
       "releaseYear": 2015,
       "genre": "Action",
-      "poster": "mad_max_fury_road_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/c5ce72f3ad020aa64aa5b9526641ce3b.jpeg",
       "rating": 4.8,
       "comments": [
         "Intense action and visually stunning cinematography.",
@@ -267,7 +266,7 @@
       "director": "James Gunn",
       "releaseYear": 2014,
       "genre": "Action",
-      "poster": "guardians_of_the_galaxy_poster.jpg",
+      "poster": "https://imgtr.ee/images/2023/11/09/8b738d03317bb1a71adff0119a19fc70.jpeg",
       "rating": 4.6,
       "comments": [
         "A perfect blend of humor, heart, and action.",
@@ -282,7 +281,8 @@
       "ratings": "6.9",
       "comments": [
         "Epic Movie",
-        "Interesting Movie"
+        "Interesting Movie",
+        "Fabulous movie"
       ],
       "id": 24
     }

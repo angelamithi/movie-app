@@ -31,7 +31,9 @@ function SingleMoviePage({ dataMovies, onDelete,onEdit,like,dislike,setLikeButto
     <LikeButton like={like} dislike={dislike} setDislikeButton={setDislikeButton} setLikeButton={setLikeButton}/>
     </div>
      <div>
-      <EditMovie onEdit={onEdit} selectedMovieId={selectedMovie.id}/>
+     <EditMovie onEdit={onEdit} selectedMovieId={selectedMovie.id} selectedMovie={selectedMovie} />
+      
+      
      </div>
   
   <button className='delete-movie-button' onClick={()=>onDelete(selectedMovie.id)}>Delete Movie</button>

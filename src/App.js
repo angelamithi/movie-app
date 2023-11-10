@@ -30,6 +30,7 @@ function App() {
   }, []);
 
   function handleAddMovie(newMovie) {
+    console.log(newMovie)
     fetch('http://localhost:3000/movies', {
       method: 'POST',
       headers: {
@@ -74,20 +75,20 @@ function handleDislike(){
   setDisLike(dislike+1);
 }
 
-function handleEdit(movieId, updatedComments) {
+function handleEdit(movieId, updatedMovie) {
   const updatedMovies = dataMovies.map((movie) => {
     if (movie.id === movieId) {
-      return { ...movie, comments: [...movie.comments, updatedComments] };
+      return { ...movie, ...updatedMovie };
     }
     return movie;
   });
 
   fetch(`http://localhost:3000/movies/${movieId}`, {
-    method: "PATCH",
+    method: 'PATCH',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ comments: updatedMovies.find((movie) => movie.id === movieId).comments }),
+    body: JSON.stringify(updatedMovie),
   })
     .then((resp) => resp.json())
     .then(() => {

@@ -4,7 +4,7 @@ function LikeButton({like,dislike,setDislikeButton,setLikeButton}){
     
    
     return(
-    <div>
+    <div className="like-button">
 
     <button className="like-Button" onClick={setLikeButton} >👍 {like} likes</button>
     <button className="dislike-Button" onClick={setDislikeButton}>👎 {dislike} dis-likes</button>

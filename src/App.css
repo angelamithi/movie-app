@@ -121,6 +121,7 @@
 .space-movie-card {
   margin-bottom: 30px;
   margin-top: 20px;
+  
 }
 
 .addButton {
@@ -167,7 +168,8 @@
   color:black;
 }
 #titleCard{
-  color:black
+  color:black;
+  
 }
 
 .color-header {

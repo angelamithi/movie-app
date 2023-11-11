@@ -285,6 +285,28 @@
         "Fabulous movie"
       ],
       "id": 24
+    },
+    {
+      "title": "Black Panther",
+      "director": "Ryan Coogler",
+      "releaseYear": "2018-06-08",
+      "poster": "https://imgtr.ee/images/2023/11/09/26d0aa689264d2356fefabf2c53f9ea3.jpeg",
+      "ratings": "5",
+      "comments": [
+        "The only movie you need"
+      ],
+      "id": 25
+    },
+    {
+      "title": "A Fall from Grace",
+      "director": "Tyler Perry",
+      "releaseYear": "2020-07-08",
+      "poster": "https://imgtr.ee/images/2023/11/10/b2c56d32205dd06214ec9a20e3aa4fb6.jpeg",
+      "ratings": "5",
+      "comments": [
+        "Full of family drama and all you can think of in a real-world relationship "
+      ],
+      "id": 26
     }
   ]
 }
